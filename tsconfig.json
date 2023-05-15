@@ -1,0 +1,24 @@
+{
+  "compilerOptions": {
+    "target": "ES2020",
+    "module": "esnext",
+    "lib": ["es6", "dom", "scripthost", "es2018", "es2018.promise"],
+    "skipLibCheck": true,
+    "jsx": "react",
+    "sourceMap": true,
+    "outDir": "./.out/",
+    "removeComments": true,
+    "noImplicitAny": true,
+    "strictFunctionTypes": true,
+    "alwaysStrict": true,
+    "noUnusedLocals": true,
+    "noImplicitReturns": true,
+    "moduleResolution": "node",
+    "typeRoots": ["node_modules/@types", "@types"],
+    "allowSyntheticDefaultImports": true,
+    "resolveJsonModule": true
+  },
+  "include": ["./src/**/*.tsx", "./src/**/*.ts", "./@types"],
+  "exclude": ["node_modules"],
+  "files": ["src/main.tsx"]
+}
